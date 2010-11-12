@@ -1,0 +1,19 @@
+Zend Server/CE Cache Adapter for Joomla! 1.5
+--------------------------------------------
+
+
+INSTALLATION
+------------
+
+In order to use this adapter you have to run Joomla! 1.5 using Zend Server.
+You can download the Community Edition of Zend Server for free from this website:
+http://www.zend.com/en/products/server-ce/downloads
+
+To install the Zend Server Cache adapter for Joomla! 1.5 copy all the *.php files of the zip package in the joomla folder: libraries/joomla/cache/storage/
+
+After that you can choose the cache handler Zendserver_disk and Zendserver_shm from the System tab of the Global Configuration menu of the Administration interface of Joomla.
+
+
+
+(C) Copyright 2010 Renato Salvatori (renato.s@cost.it), Enrico Zimuel (enrico@zimuel.it)
+More info on http://www.zimuel.it/blog/2010/06/benchmarking-zend-server-ce-with-joomla/
